@@ -1,0 +1,23 @@
+countdown-seconds: 5
+
+sounds:
+  tick:
+    name: BLOCK_NOTE_BLOCK_HAT
+    volume: 1.0
+    pitch: 1.0
+  teleport:
+    name: ENTITY_ENDERMAN_TELEPORT
+    volume: 1.0
+    pitch: 1.0
+  cancel:
+    name: BLOCK_NOTE_BLOCK_BASS
+    volume: 1.0
+    pitch: 1.0
+  set:
+    name: ENTITY_EXPERIENCE_ORB_PICKUP
+    volume: 1.0
+    pitch: 1.0
+  delete:
+    name: ENTITY_EXPERIENCE_ORB_PICKUP
+    volume: 1.0
+    pitch: 1.0
