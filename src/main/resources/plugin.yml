@@ -1,0 +1,30 @@
+name: Spawn
+version: ${project.version}
+main: dev.envyware.spawn.SpawnPlugin
+author: envyware
+description: "Kewl Spawn plugin"
+api-version: '1.21'
+folia-supported: true
+
+commands:
+  setspawn:
+    description: Set the server spawn
+    usage: /setspawn
+  delspawn:
+    description: Delete the server spawn
+    usage: /delspawn
+  spawn:
+    description: Teleport to spawn
+    usage: /spawn [player]
+
+permissions:
+  spawn.set:
+    default: op
+  spawn.delete:
+    default: op
+  spawn.use:
+    default: true
+  spawn.others:
+    default: op
+  spawn.bypass:
+    default: op
